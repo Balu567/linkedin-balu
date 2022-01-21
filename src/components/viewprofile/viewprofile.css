@@ -1,0 +1,243 @@
+.viewprofile {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.viewprofile_left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+}
+
+.viewprofile_left1 {
+  border: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  height: fit-content;
+}
+
+.viewprofile_left2 {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  height: fit-content;
+}
+.viewprofile_left2_about {
+  padding-left: 10px;
+}
+
+.viewprofile_left3 {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  height: fit-content;
+}
+
+.viewprofile_left3_content {
+  padding-left: 10px;
+}
+.field {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile_bgimg {
+  margin-bottom: -110px;
+  object-fit: contain;
+}
+
+.profile_avatar {
+  width: 150px !important;
+  height: 150px !important;
+  margin-left: 30px;
+}
+
+.profile_basic_details {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.profile_basicleft1 {
+  flex: 4;
+  padding-left: 10px;
+}
+
+.contact {
+  color: #0a66c2;
+  cursor: pointer;
+}
+
+.mutual {
+  display: flex;
+}
+
+.basic_button1 {
+  border: 1px solid;
+  width: 110px;
+  height: 30px;
+  margin-right: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0a66c2;
+  color: white;
+  cursor: pointer;
+}
+
+.basic_button2 {
+  border: 1px solid;
+  width: 110px;
+  height: 30px;
+  margin-right: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: gray;
+  cursor: pointer;
+}
+
+.basic_button1:hover {
+  background-color: darkblue;
+}
+
+.basic_button2:hover {
+  background-color: slategray;
+  color: white;
+}
+
+.profile_basicleft2 {
+  flex: 4;
+  padding-left: 10px;
+}
+
+.profile_basicright {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 10px;
+}
+
+.profile_basicright_sub {
+  display: flex;
+}
+
+.profile_basicright_image {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
+
+.viewprofile_right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+}
+
+.viewprofile_right_top1 {
+  border: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.explore_jobs {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+}
+
+.explore_avatar {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.explore_image {
+  width: 70px;
+  height: 70px;
+  margin-left: 20px;
+}
+
+.explore_content {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.exp_content {
+  justify-content: center !important;
+  align-self: center !important;
+  align-items: center !important;
+}
+
+.explore_button2 {
+  border: 1px solid;
+  width: 110px;
+  height: 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-color: #0a66c2;
+  color: #0a66c2;
+  cursor: pointer;
+  margin-left: 55px;
+}
+
+.viewprofile_right_top2 {
+  border: 1px solid gray;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: white;
+  height: fit-content;
+  padding: 10px;
+}
+
+.viewed_people_msg {
+  font-style: 13px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.view_btn {
+  padding-top: 10px !important;
+  padding-right: 20px !important;
+  border: none;
+  align-items: center !important;
+  cursor: pointer;
+  justify-content: center;
+  color: gray !important;
+  width: 100%;
+}
+
+.view_btn:hover {
+  background-color: grey !important;
+  color: white !important;
+}
