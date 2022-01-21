@@ -170,7 +170,7 @@ function Mynetwork() {
               connection="Based on your profile"
             />
             <Profilecard
-              name="Alexandra Daddario"
+              name="AlexandraDaddario"
               img="https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2021/03/LinkedIn-Default-Background-2020-.jpg"
               avatar="https://i.pinimg.com/736x/c3/84/34/c3843490be9ede329976eef51a9c9727.jpg"
               designation="Actress"
