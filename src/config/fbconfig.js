@@ -1,6 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "@firebase/firestore";
+import { getPerformance } from "firebase/performance";
+import { getAnalytics } from "firebase/analytics";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -15,7 +17,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-
+const perf = getPerformance(app);
+const analytics = getAnalytics(app);
 // const dbref = firebase.firestore();
 // export const postsRef = dbref.child("posts");
 // //const auth = firebase.auth();
